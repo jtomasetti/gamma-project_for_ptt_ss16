@@ -1,6 +1,7 @@
-# gamma-project_for_ptt_ss16
+# First Assignment of group "gamma" of course "Programming techniques and technologies" in SS 2016
 
 Description of the project can be found in the 101companies-wiki:
+
 http://101companies.org/wiki/Contribution:ptt-ss16-gamma
 
 Usage:
