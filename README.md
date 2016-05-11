@@ -27,7 +27,7 @@ http://101companies.org/wiki/Contribution:JavaFXFlatcompany
 
 # Usage:
 
-  To run the programm, just run ContributionJavaFXFlatCompany.jar.
+  To run the programm, just run https://github.com/jtomasetti/gamma-project_for_ptt_ss16_ass01/ContributionJavaFXFlatCompany.jar.
   
   To view the code import ppt_ss16_gamma_ass01.zip into e(fx)clipse.
   
