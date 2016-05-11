@@ -2,7 +2,7 @@
 
 Description of the project can be found in the 101companies-wiki:
 
-http://101companies.org/wiki/Contribution:ptt-ss16-gamma
+http://101companies.org/wiki/Contribution:JavaFX_Flat_company
 
 Usage:
 
