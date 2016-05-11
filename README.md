@@ -17,7 +17,14 @@ Description of the project can be found in the 101companies-wiki:
 
 http://101companies.org/wiki/Contribution:JavaFXFlatcompany
 
+# Prerequisites
+
+[Java JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+[[http://efxclipse.bestsolution.at/install.html#all-in-one::e(fx)clipse]]
+
+[[http://gluonhq.com/open-source/scene-builder/::scene builder 8.0]]
 
 # Usage:
 
-  To run the programm, just run ppt_ss16_gamma_ass01.jar.
+  To run the programm, just run ContributionJavaFXFlatCompany.jar.
