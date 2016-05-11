@@ -3,7 +3,7 @@ This repo is conceptually part of [101repo](http://101companies.org/wiki/).
 
 This repo contains Java-based contributions that are easy to build, run, and test.
 
-The physical location of this repo is here:
+The physical location of this repo in GitHub is here:
 
 [https://github.com/jtomasetti/gamma-project_for_ptt_ss16_ass01](https://github.com/jtomasetti/gamma-project_for_ptt_ss16_ass01)
 
@@ -27,7 +27,7 @@ http://101companies.org/wiki/Contribution:JavaFXFlatcompany
 
 # Usage:
 
-  To run the programm, just run https://github.com/jtomasetti/gamma-project_for_ptt_ss16_ass01/blob/master/ContributionJavaFXFlatCompany.jar.
+  To run the programm, just run ContributionJavaFXFlatCompany.jar of the GitHub-repo.
   
   To view the code import ppt_ss16_gamma_ass01.zip into e(fx)clipse.
   
