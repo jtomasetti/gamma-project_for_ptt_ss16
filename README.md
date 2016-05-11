@@ -1,4 +1,7 @@
-# First Assignment of group "gamma" of course "Programming techniques and technologies" in SS 2016
+#  Summary
+This repo is conceptually part of [101repo](http://101companies.org/wiki/).
+
+First Assignment of group "gamma" of course "Programming techniques and technologies" in SS 2016
 
 Description of the project can be found in the 101companies-wiki:
 
