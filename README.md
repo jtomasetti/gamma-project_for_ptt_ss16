@@ -17,8 +17,6 @@ Description of the project can be found in the 101companies-wiki:
 
 http://101companies.org/wiki/Contribution:JavaFXFlatcompany
 
-Usage:
-
-  The Code is saved as ppt_ss16_gamma_ass01.zip.
+# Usage:
 
   To run the programm, just run ppt_ss16_gamma_ass01.jar.
