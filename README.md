@@ -21,9 +21,9 @@ http://101companies.org/wiki/Contribution:JavaFXFlatcompany
 
 [Java JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-[e(fx)clipse](http://efxclipse.bestsolution.at/install.html#all-in-one)(e(fx)clipse]]
+[e(fx)clipse](http://efxclipse.bestsolution.at/install.html#all-in-one)
 
-(scene builder 8.0)[http://gluonhq.com/open-source/scene-builder/]
+[scene builder 8.0](http://gluonhq.com/open-source/scene-builder/)
 
 # Usage:
 
