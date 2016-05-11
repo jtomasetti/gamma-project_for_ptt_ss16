@@ -33,7 +33,7 @@ http://101companies.org/wiki/Contribution:JavaFXFlatcompany
   
 # Description
 
-The contribution has many features to allow easy administration of the [101company](http://101companies.org/wiki/101company). Firstly you are able to create new employees with several attributes by using the new Button. The code for this button is created by the author of the [tutorial](http://code.makery.ch/library/javafx-8-tutorial/part1/::tutorial)  (name: Marco Jakob) but we put a line in the handleNew function ( mainApp.setSavedData(mainApp.getPersonData()); ) to save the “State” for the  [Undo-function](http://101companies.org/wiki/Feature:Undo-redo) and to implement our design pattern [Memento](https://en.wikipedia.org/wiki/Memento). The before-mentioned line is also used in the [Feature:Editing](http://101companies.org/wiki/Feature:Editing) and (Feature:Cut)[http://101companies.org/wiki/Feature:Cut).
+The contribution has many features to allow easy administration of the [101company](http://101companies.org/wiki/101company). Firstly you are able to create new employees with several attributes by using the new Button. The code for this button is created by the author of the [tutorial](http://code.makery.ch/library/javafx-8-tutorial/part1/::tutorial)  (name: Marco Jakob) but we put a line in the handleNew function ( mainApp.setSavedData(mainApp.getPersonData()); ) to save the “State” for the  [Undo-function](http://101companies.org/wiki/Feature:Undo-redo) and to implement our design pattern [Memento](https://en.wikipedia.org/wiki/Memento). The before-mentioned line is also used in the [Feature:Editing](http://101companies.org/wiki/Feature:Editing) and [Feature:Cut](http://101companies.org/wiki/Feature:Cut).
 
 By using the “Edit”-feature, the data of a selected employee can be changed.
 
@@ -45,7 +45,7 @@ The [Feature:Median](http://101companies.org/wiki/Feature:Median) calculates the
 
 Including the case that an employee leaves the company, you are able to remove him from the list by using the "Delete"-feature.
 
-Last but not least you can [undo)[http://101companies.org/wiki/Feature:Undo-redo) your actions or mistakes by using the “undo”-button. It is designed by us using the Memento pattern. There are also functions for saving (/save as) your file as an XML-data file [Serialization](http://101companies.org/wiki/Serizalation). You can open saved projects or create a new one. They are  implemented by the author of the tutorial Marco Jakob and token over into the code. Group gamma wants to thank him at this point for his tutorial and help with the code.
+Last but not least you can [undo](http://101companies.org/wiki/Feature:Undo-redo) your actions or mistakes by using the “undo”-button. It is designed by us using the Memento pattern. There are also functions for saving (/save as) your file as an XML-data file [Serialization](http://101companies.org/wiki/Serizalation). You can open saved projects or create a new one. They are  implemented by the author of the tutorial Marco Jakob and token over into the code. Group gamma wants to thank him at this point for his tutorial and help with the code.
 
   
   
