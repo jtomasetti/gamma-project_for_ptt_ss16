@@ -1,11 +1,10 @@
 # gamma-project_for_ptt_ss16
 
-Characteristics:
-
---benötigt noch änderungen--
+Description of the project can be found in the 101companies-wiki:
+http://101companies.org/wiki/Contribution:ptt-ss16-gamma
 
 Usage:
 
-  The Code is saved as ppt_gamma_ass01.zip.
+  The Code is saved as ppt_ss16_gamma_ass01.zip.
 
-  To run the programm, just run ppt_gamma_ass01.jar.
+  To run the programm, just run ppt_ss16_gamma_ass01.jar.
