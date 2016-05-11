@@ -47,7 +47,7 @@ Including the case that an employee leaves the company, you are able to remove h
 
 Last but not least you can [undo](http://101companies.org/wiki/Feature:Undo-redo) your actions or mistakes by using the “undo”-button. It is designed by us using the Memento pattern. There are also functions for saving (/save as) your file as an XML-data file [Serialization](http://101companies.org/wiki/Serizalation). You can open saved projects or create a new one. They are  implemented by the author in the tutorial Marco Jakob and token over into the code. Group gamma wants to thank him at this point for his tutorial and help with the code.
 
-# Motivation==
+# Motivation
 
 By using our contribution, one could easily administrate the information about the employees of a [Flat company](http://101companies.org/wiki/Flat company.) The features are simple to execute by using the interface’s buttons and mistakes can instantly be fixed by using the undo-button. It is also made for long time usage by including a [Feature:History](http://101companies.org/wiki/Feature:History) and an option for saving. 
 
