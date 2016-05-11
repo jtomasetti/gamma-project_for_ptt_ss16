@@ -45,7 +45,73 @@ The [Feature:Median](http://101companies.org/wiki/Feature:Median) calculates the
 
 Including the case that an employee leaves the company, you are able to remove him from the list by using the "Delete"-feature.
 
-Last but not least you can [undo](http://101companies.org/wiki/Feature:Undo-redo) your actions or mistakes by using the “undo”-button. It is designed by us using the Memento pattern. There are also functions for saving (/save as) your file as an XML-data file [Serialization](http://101companies.org/wiki/Serizalation). You can open saved projects or create a new one. They are  implemented by the author of the tutorial Marco Jakob and token over into the code. Group gamma wants to thank him at this point for his tutorial and help with the code.
+Last but not least you can [undo](http://101companies.org/wiki/Feature:Undo-redo) your actions or mistakes by using the “undo”-button. It is designed by us using the Memento pattern. There are also functions for saving (/save as) your file as an XML-data file [Serialization](http://101companies.org/wiki/Serizalation). You can open saved projects or create a new one. They are  implemented by the author in the tutorial Marco Jakob and token over into the code. Group gamma wants to thank him at this point for his tutorial and help with the code.
 
-  
+# Motivation==
+
+By using our contribution, one could easily administrate the information about the employees of a [Flat company](http://101companies.org/wiki/Flat company.) The features are simple to execute by using the interface’s buttons and mistakes can instantly be fixed by using the undo-button. It is also made for long time usage by including a [Feature:History](http://101companies.org/wiki/Feature:History) and an option for saving. 
+
+# Features
+
+Feature „Edit“:
+
+    @FXML
+    private void handleEditPerson()
+
+Feature „Total“:
+
+    @FXML
+    private void handleTotal() {
+    	double total = 0; int i=0;
+    	ObservableList<Employee> employeeList = mainApp.getPersonData();
+    	int max = employeeList.size();
+    	while(i<max) {
+    		total += employeeList.get(i).getSalary();
+    		i++;
+    	}
+    	totalLabel.setText(Double.toString(total));
+    }
+Feature “Cut”:
+
+    @FXML
+    private void handleCut() {
+      	mainApp.setSavedData(mainApp.getPersonData());
+      	ObservableList<Employee> employeeList = mainApp.getPersonData();
+    	Iterator<Employee> iter = employeeList.iterator();
+    	Employee employee = iter.next();
+    	while(employee != null) {
+    		employee.setSalary(employee.getSalary()/2);
+    		employee = iter.next();
+    	}    	
+    }
+Feature “Median”:
+
+    @FXML
+    private void handleMedian() {
+    	ObservableList<Employee> unsort = FXCollections.observableArrayList();
+    	ObservableList<Employee> employeeList= mainApp.getPersonData();
+    	EmployeeListWrapper wrapper = new EmployeeListWrapper();
+        wrapper.setPersons(mainApp.getPersonData());
+     	unsort.clear();
+    	unsort.addAll(wrapper.getPersons());
+    	int n = employeeList.size();double median;
+    	quicksort(0,n-1,employeeList); // sortiert die Employee-Daten
+    	if(n%2==0) {
+    		median = (employeeList.get(n/2).getSalary()+employeeList.get((n/2)-1).getSalary())/2; 
+    	} else {
+    		median = employeeList.get((n/2)).getSalary();
+    	}
+    	wrapper = new EmployeeListWrapper();
+        wrapper.setPersons(unsort);
+     	mainApp.personData.clear();
+    	mainApp.personData.addAll(wrapper.getPersons());
+    	medianLabel.setText(Double.toString(median));
+    }
+Feature “Undo”:
+
+    @FXML
+    private void undo() {
+    		mainApp.restorePersonData(mainApp.getSavedData());    	
+    }
+
   
